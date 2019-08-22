@@ -1,12 +1,10 @@
-'use strict';
-
 const http = require('http');
 const path = require('path');
 
 const sendIndexPage = require('./responses/sendIndexPage');
 const sendOtherPage = require('./responses/sendOtherPage');
-const sendStyles    = require('./responses/sendStyles');
-const sendText      = require('./responses/sendText');
+const sendStyles = require('./responses/sendStyles');
+const sendText = require('./responses/sendText');
 
 const PORT = 3000;
 
@@ -24,17 +22,15 @@ function handleRequest(request, response) {
       sendStyles(response);
       break;
     default:
+      // eslint-disable-next-line no-case-declarations
       const extension = path.extname(request.url);
       if (extension === '') {
-        response.statusCode = 302;
-        response.setHeader('Location', '/');
-      }
-      else {
+        response.statusCode = 302; response.setHeader('Location', '/');
+      } else {
         response.statusCode = 404;
         sendText(response, 'File not found');
       }
   }
-
   response.end();
 }
 
