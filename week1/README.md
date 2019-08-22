@@ -86,8 +86,37 @@ Documentation:
 [package.json](https://docs.npmjs.com/files/package.json)
 
 ## Installing dependencies using `npm install`
-
 [npm install](https://docs.npmjs.com/cli/install)
+
+### Some useful commands:
+`npm list --depth=0` list of locally installed dependencies  
+`npm list -g --depth=0` list of globally installed dependecies  
+Note: without the --depth=0 option all the dependencies of depencies will recursively shown!  
+Try for yourself: `npm list -g` 
+
+## ESLint
+TODO: Explanation goes here
+
+Visual Studio Code > Extensions > ESLint > Install  
+
+`npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-import`  
+
+Add a configuration file named `.eslintrc` in your project directory  
+
+```json
+{
+  "extends": ["airbnb-base"],
+  "env": {
+    "es6":  true,
+    "node": true
+  },
+  "rules": {
+    "linebreak-style":"off",
+    "no-console": "off"
+  }
+}
+
+```
 
 ## Importing modules using `require`
 
