@@ -3,31 +3,31 @@
 ## Agenda (Checklist)
 1.  Recap last week  
 2.  Previous homework  
-3.  Questions & answers (Q&A)  
+3.  Questions & answers (Q&A) - 45 mins for 1, 2, 3
 4.  What is Node.js?  
 	- [ ] One page summary
 5.  Finding documentation  
 	- [ ] Example usage of documentation e.g. REPL  
 	- [ ] List of links to documentation  
 	- [ ] Use search engine to find official documentation  
-6.  Read-eval-print loop (REPL)  
-	- [ ] Examples for demonstration  
-7.  Setting up a Node.js project using `npm init` and `package.json`  
+6.  Read-eval-print loop (REPL) - 30 minutes for 4, 5, 6  
+	- [ ] Examples for demonstration
+7.  Setting up a Node.js project using `npm init` and `package.json` - 15 mins
 	- [ ] Example init -> package.json for the exercise
-8.  Installing dependencies using `npm install`  
+8.  Installing dependencies using `npm install`  - 30 mins
 	- [ ] Example local dependency  
 	- [ ] Example global dependency = ESLint  
 	- [ ] Install and configure eslint in VS Code  
 	- [ ] Dev dependency vs regular dependency
-9.  Importing modules using `require`  
+9.  Importing modules using `require` - 15 mins
 	- [ ] Examples for built-in, external and local modules  
-10. Building an HTTP server using built-in `http` module  
+10. Building an HTTP server using built-in `http` module - 30 mins
 	- [ ] TODO  
  	- [ ] HTTP request methods  
   	- [ ] HTTP response status codes  
   	- [ ] Routing  
   	- [ ] Example  
-11. Homework  
+11. Homework - 15 minutes
 	- [ ] TODO
 
 ## What is Node.js?
